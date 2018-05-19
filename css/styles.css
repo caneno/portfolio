@@ -1,0 +1,253 @@
+body, html {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+a {
+	transition: all .2s ease-in-out;
+}
+
+.active {
+	color: #000;
+	background-color: rgba(255, 255, 255, 0.7);
+	margin: 5px 0;
+	padding: 10px 15px;
+}
+
+header .navbar {
+	background-color: transparent;
+	background: transparent;
+	border-color: transparent;
+}
+
+header #name-brand, #nav-menu li a {
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+}
+
+header #name-brand {
+	font-weight: 400;
+	font-size: 40px;
+}
+
+header #nav-menu li a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+
+header #nav-menu li a:hover, header #nav-menu li a:active {
+	color: #000;
+	background-color: rgba(255, 255, 255, 0.7);
+	margin: 5px 0;
+	padding: 10px 15px;
+}
+
+/*///////////////////////////////////HERO IMAGE///////////////////*/
+
+#big-image {
+	height: 700px;
+}
+
+#big-image .hero-img {
+	height: 100%;
+	width: 100%;
+}
+
+#big-image .hero-img .head-img {
+	background-image: url("../images/lap-setup.jpeg");
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#big-image .hero-img .head-img .hero-text {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+}
+
+#big-image .hero-img .head-img .hero-text h1 {
+	color: #fff;
+	font-size: 8em;
+	font-weight: 100;
+	text-shadow: 3px 3px rgba(0, 0, 0, .5);
+}
+
+#big-image .hero-img .head-img .hero-text ul li, .ul-rst {
+	list-style-type: none;
+	display: inline-block;
+	font-size: 1.3em;
+	padding-left: 0;
+	margin-top: 15px;
+}
+
+#big-image .hero-img .head-img .hero-text ul li:nth-child(2) {
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+	padding: 0 15px;
+	margin: 0 15px;
+}
+
+/*/////////////////////////////////////ABOUT SECTION/////////////////////*/
+
+#about {
+	background-color: #d8d8ce;
+	padding-bottom: 100px;
+}
+
+#about .container .about-header {
+	text-align: center;
+}
+
+#about .container .about-header h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 3.2em;
+	margin-top: 100px;
+}
+
+#about .container .about-header p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2.0em;
+	font-weight: 100;
+	margin-bottom: 30px;
+}
+
+#about .container .row .col-md-4 {
+	text-align: center;
+	margin-top: 45px;
+}
+
+#about .container .row .col-md-4 h2 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	margin: 20px 0;
+	color: #000;
+}
+
+#about .container .row .col-md-4 .fa {
+	font-size: 3.0em;
+	color: #000;
+}
+
+#about .container .row .col-md-4 p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+	font-size: 1.3em;
+	color: #000;
+}
+
+/*////////////////////////////////////PROJECT SECTION/////////////////////*/
+
+#projects {
+	background-color:#fff;
+	height: 700px;
+}
+
+/*////////////////////////////////////CONTACT SECTION////////////////////////*/
+
+#contact {
+	background-color: #d8d8ce;
+	padding-bottom: 100px;
+}
+#contact .style {
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+#contact .contact-header h2{
+	margin: 8.8% 0 3% 0;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-size: 3.2em;
+}
+#contact .container .row .col-md-6 .go-bottom .card-block .form-group {
+	position: relative;
+	top: auto;
+	left: auto;
+	width: auto;
+}
+#contact .container .row .col-md-6 .go-bottom .card-block .NewFormStyle {
+	border: none;
+	outline: none;
+	background: transparent;
+	border-bottom: 1px solid #a9a9a9;
+	width: 80%;
+	padding-top: 10px;
+}
+input,
+textarea,
+input::-webkit-input-placeholder {
+	font-size: 25px;
+	line-height: 3;
+}
+
+#contact .container .row .col-md-6 .go-bottom .card-block {
+	margin-top: 50px;
+	margin-left: 65px;
+}
+
+#contact .container .row .col-md-6 .contact-text {
+	margin-top: 80px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+	font-size: 1.3em;
+	color: #000;
+}
+#contact .container .row .col-md-6 .go-bottom .card-block .text-xs-center .btn{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+}
+
+label {
+	position: absolute;
+	top: 1px;
+	right: 1px;
+	bottom: 1px;
+	left: .5em;
+	z-index: 1;
+	height: 1em;
+	font-size: 25px;
+	line-height: 1.5em;
+	color: #999;
+	text-shadow: 1px 1px rgba(0, 0, 0, .7);
+	white-space: nowrap;
+	cursor: text;
+	transition: all .2s ease;
+}
+
+input:focus ~ label,
+input:valid ~label {
+	font-size: 15px;
+	font-weight: bold;
+	left: 5px;
+	top: -7px;
+	text-shadow: none;
+}
+
+textarea:focus ~ label,
+textarea:valid ~label {
+	font-size: 15px;
+	font-weight: bold;
+	left: 5px;
+	top: -7px;
+}
+
+input:valid ~label,
+textarea:valid ~label {
+	color: #00344f;
+}
+
+input:focus:invalid ~label,
+textarea:focus:invalid ~label {
+	color: #00344f;
+}
+
+input:required:valid ~label::before {
+	color: #a9a9a9;
+}
